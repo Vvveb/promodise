@@ -2,15 +2,22 @@
 
 Promodise appears with a winsome, tempting and pleasant interface that will fit for your business company or digital marketing agency. It features both the multipage and single page website template with a stunning appearance.
 
+## [Vvveb CMS](https://www.vvveb.com) theme.
+
+👉🏻 [Theme page](https://themes.vvveb.com/product/promodise) 
+👉🏻 [Theme development documentation](http://dev.vvveb.com/theme-introduction)
+
+Use this template either as a standalone Bootstrap 5 template or as a Vvveb CMS theme.
+
 <!-- demo -->
 ## Example Site
 
-| [![](screenshots/h1.jpg)](https://demo.themefisher.com/promodise/) | [![](screenshots/h2.jpg)](https://demo.themefisher.com/promodise/index-2.html) | [![](screenshots/h3.jpg)](https://demo.themefisher.com/promodise/index-3.html) |
+| [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/h1.jpg)](https://demo.themefisher.com/promodise/) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/h2.jpg)](https://demo.themefisher.com/promodise/index-2.html) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/h3.jpg)](https://demo.themefisher.com/promodise/index-3.html) |
 |:---:|:---:|:---:|
 | **Home 1**  | **Home 2**  | **Home 3** |
-| [![](screenshots/about.jpg)](https://demo.themefisher.com/promodise/about.html) | [![](screenshots/service.jpg)](https://demo.themefisher.com/promodise/service.html) | [![](screenshots/pricing.jpg)](https://demo.themefisher.com/promodise/pricing.html) |
+| [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/about.jpg)](https://demo.themefisher.com/promodise/about.html) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/service.jpg)](https://demo.themefisher.com/promodise/service.html) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/pricing.jpg)](https://demo.themefisher.com/promodise/pricing.html) |
 | **About**  | **Service**  | **Pricing** |
-| [![](screenshots/blog.jpg)](https://demo.themefisher.com/promodise/blog.html) | [![](screenshots/bd.jpg)](https://demo.themefisher.com/promodise/blog-details.html) | [![](screenshots/contact.jpg)](https://demo.themefisher.com/promodise/contact.html) |
+| [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/blog.jpg)](https://demo.themefisher.com/promodise/blog.html) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/bd.jpg)](https://demo.themefisher.com/promodise/blog-details.html) | [![](https://github.com/themefisher/promodise-bootstrap/blob/main/screenshots/contact.jpg)](https://demo.themefisher.com/promodise/contact.html) |
 | **Blogs**  | **Blogs Details**  | **Contact** |
 
 👉🏻[View Live Preview](https://demo.themefisher.com/promodise/)
@@ -31,7 +38,7 @@ Promodise appears with a winsome, tempting and pleasant interface that will fit 
 <!-- download -->
 ## Download And installation
 
-Download this template from [Github](https://github.com/themefisher/promodise/archive/main.zip)
+Download this template from [Github](https://github.com/Vvveb/promodise/archive/main.zip)
 
 <!-- installation -->
 ### Basic Usages
@@ -103,12 +110,14 @@ Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://them
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
+**Vvveb CMS integration** Changes released under the MIT license.
+
 <!-- resources -->
 ## Resources
 
 Some third-party plugins that we used to build this template. Please check their license.
 
-* **Bootstrap v4.5**: <https://getbootstrap.com/docs/4.5/getting-started/introduction/>
+* **Bootstrap v5.1**: <https://getbootstrap.com/docs/5.1/getting-started/introduction/>
 * **Jquery**: <https://jquery.com/download/>
 * **Google Fonts**: <http://fonts.google.com/>
 * **Font Awesome Free**: <https://fontawesome.com/>

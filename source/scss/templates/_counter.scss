@@ -31,7 +31,8 @@
 
 #counter .dark-overlay {
     background:$black;
-    opacity: 0.95;
+    opacity: 0.9;
+	z-index:0;
 }
 
 #counter {

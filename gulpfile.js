@@ -11,7 +11,7 @@ const comments = require("gulp-header-comment");
 
 var path = {
   src: {
-    html: "source/*.html",
+    html: ["source/*.html", "source/**/*.html"],
     others: "source/*.+(php|ico|png)",
     htminc: "source/partials/**/*.htm",
     incdir: "source/partials/",
@@ -21,8 +21,8 @@ var path = {
     images: "source/images/**/*.+(png|jpg|gif|svg)",
   },
   build: {
-    dirBuild: "theme/",
-    dirDev: "theme/",
+    dirBuild: "./",
+    dirDev: "./",
   },
 };
 
@@ -34,7 +34,7 @@ gulp.task("html:build", function () {
       fileinclude({
         basepath: path.src.incdir,
       })
-    )
+    )/*
     .pipe(
       comments(`
     WEBSITE: https://themefisher.com
@@ -42,7 +42,7 @@ gulp.task("html:build", function () {
     FACEBOOK: https://www.facebook.com/themefisher
     GITHUB: https://github.com/themefisher/
     `)
-    )
+    ) */
     .pipe(gulp.dest(path.build.dirDev))
     .pipe(
       bs.reload({
@@ -63,14 +63,14 @@ gulp.task("scss:build", function () {
     )
     .pipe(autoprefixer())
     .pipe(sourcemaps.write("/"))
-    .pipe(
+    /*.pipe(
       comments(`
     WEBSITE: https://themefisher.com
     TWITTER: https://twitter.com/themefisher
     FACEBOOK: https://www.facebook.com/themefisher
     GITHUB: https://github.com/themefisher/
     `)
-    )
+    )*/
     .pipe(gulp.dest(path.build.dirDev + "css/"))
     .pipe(
       bs.reload({
@@ -83,6 +83,7 @@ gulp.task("scss:build", function () {
 gulp.task("js:build", function () {
   return gulp
     .src(path.src.js)
+    /*
     .pipe(
       comments(`
   WEBSITE: https://themefisher.com
@@ -90,7 +91,7 @@ gulp.task("js:build", function () {
   FACEBOOK: https://www.facebook.com/themefisher
   GITHUB: https://github.com/themefisher/
   `)
-    )
+    ) */
     .pipe(gulp.dest(path.build.dirDev + "js/"))
     .pipe(
       bs.reload({
